@@ -1,0 +1,198 @@
+.catalog-ordering-wrap {
+	margin-bottom: 53px;
+}
+
+.catalog-ordering-wrap .catalog-ordering ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.catalog-ordering-wrap .catalog-ordering a {
+	display: inline-block;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-decoration: none;
+	color: #999;
+}
+
+.catalog-ordering-wrap .catalog-ordering a span {
+	color: #333;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.catalog-ordering-wrap .catalog-ordering .order-angel {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 47px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	font-size: 1.2em;
+	border-left: 1px solid #e5e5e5;
+}
+
+.catalog-ordering-wrap .catalog-ordering .order-angel .fa {
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+
+.catalog-ordering-wrap .catalog-ordering .orderby-order-container .orderby {
+	position: relative;
+	float: left;
+	margin: 0 7px 7px 0;
+}
+
+.catalog-ordering-wrap .catalog-ordering .orderby-order-container .orderby:hover ul {
+	display: block;
+}
+.catalog-ordering-wrap .catalog-ordering .orderby-order-container .orderby>li {
+	padding-right: 40px;
+	border: 1px solid #e5e5e5;
+}
+
+.catalog-ordering-wrap .catalog-ordering .orderby-order-container .orderby>li .current-li-content a {
+	min-width: 143px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.catalog-ordering-wrap .catalog-ordering .orderby-order-container .orderby ul {
+	display: none;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	border: 1px solid #e5e5e5;
+	border-top: 0;
+	z-index: 9999;
+}
+
+.catalog-ordering-wrap .catalog-ordering .orderby-order-container .orderby ul li {
+	border-top: 1px solid #e5e5e5;
+}
+
+.catalog-ordering-wrap .catalog-ordering .orderby-order-container .orderby ul li:first-child {
+	border-top: 0;
+}
+
+.catalog-ordering-wrap .catalog-ordering .orderby-order-container .orderby ul li a {
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #fff;
+}
+
+.catalog-ordering-wrap .catalog-ordering .orderby-order-container .order {
+	float: left;
+	margin: 0 7px 7px 0;
+	border: 1px solid #e5e5e5;
+}
+.catalog-ordering-wrap .catalog-ordering .orderby-order-container .order li a {
+	width: 46px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.catalog-ordering-wrap .catalog-ordering .sort-count {
+	position: relative;
+	float: left;
+	margin: 0 7px 7px 0;
+}
+
+.catalog-ordering-wrap .catalog-ordering .sort-count:hover ul {
+	display: block;
+}
+
+.catalog-ordering-wrap .catalog-ordering .sort-count>li {
+	padding-right: 40px;
+	border: 1px solid #e5e5e5;
+}
+
+.catalog-ordering-wrap .catalog-ordering .sort-count>li .current-li-content a {
+	min-width: 133px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.catalog-ordering-wrap .catalog-ordering .sort-count ul {
+	display: none;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	border: 1px solid #e5e5e5;
+	border-top: 0;
+	z-index: 9999;
+}
+
+.catalog-ordering-wrap .catalog-ordering .sort-count ul li {
+	border-top: 1px solid #e5e5e5;
+}
+
+.catalog-ordering-wrap .catalog-ordering .sort-count ul li:first-child {
+	border-top: 0;
+}
+
+.catalog-ordering-wrap .catalog-ordering .sort-count ul li a {
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #fff;
+}
+
+.catalog-ordering-wrap .catalog-ordering .grid-list-view {
+	float: left;
+	margin-bottom: 7px;
+	border: 1px solid #e5e5e5;
+}
+
+.catalog-ordering-wrap .catalog-ordering .grid-list-view .grid-view-li,
+.catalog-ordering-wrap .catalog-ordering .grid-list-view .list-view-li {
+	float: left;
+	color: #555;
+	text-align: center;
+	font-size: 14px;
+}
+
+.catalog-ordering-wrap .catalog-ordering .grid-list-view .grid-view-li .active,
+.catalog-ordering-wrap .catalog-ordering .grid-list-view .list-view-li .active {
+	color: #333;
+}
+
+.catalog-ordering-wrap .catalog-ordering .grid-list-view .list-view-li {
+	border-left: 1px solid #e5e5e5;
+}
+
+.catalog-ordering-wrap .catalog-ordering .grid-list-view .grid-view-li .grid-view,
+.catalog-ordering-wrap .catalog-ordering .grid-list-view .list-view-li .list-view {
+	width: 46px;
+}
+
+.catalog-ordering-wrap .woocommerce-result-count {
+	padding: 20px 0 0 15px;
+	color: #999;
+}
+
+.catalog-ordering-wrap .clearfix {
+	clear: both;
+}
+
+.catalog-ordering-wrap .clearfix:before,
+.catalog-ordering-wrap .clearfix:after {
+	content:  " ";
+	display:  table;
+	clear: both;
+}
